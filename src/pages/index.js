@@ -4,15 +4,21 @@ import Layout from "../components/layout"
 
 const IndexPage = () => {
   return (
-      <Layout>
+    <Layout>
       <h1>Home</h1>
-      <p>Hi I am Suraj Chandgude</p>
-      <p>I am from Chasnali Kopargaon. MH, India Earth</p>
+      <h4>
+        Hi I am Suraj Chandgude {" "}
+        <span role="img" aria-label="robo">
+          🤖
+        </span>
+        , A Full Stack Developer from beautifull town of Chasnali.
+      </h4>
+      <p>I am from Chasnali Kopargaon. MH, India, Planet Earth</p>
 
       <p>
-        Need an developer? <Link to="/contact"> Contact Me? </Link>{" "}
+        Need a developer? <Link to="/contact"> Contact Me? </Link>
       </p>
-      </Layout>
+    </Layout>
   )
 }
 

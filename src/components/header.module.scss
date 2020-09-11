@@ -1,6 +1,20 @@
-$color: green;
+.header {
+    padding: 1rem  0 3rem;
+}
+
+.title {
+    color: #000000;
+    font-size: 3rem;
+    
+}
 
 .link {
-    color: $color;
     color: yellowgreen;
+}
+.link:hover{
+    color: #999999;
+}
+
+.link::after{
+    background: #444444;
 }
