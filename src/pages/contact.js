@@ -9,7 +9,7 @@ const Contact = () => {
         <p>I am Suraj Chandgude.</p>
         <p>You can contact me at officeofsuraj@pm.me</p>
         <h3>
-          Visit me on{" "}
+          Visit me on
           <a
             href="https://www.twitter.com/iamsurajdc"
             rel="noreferrer"
