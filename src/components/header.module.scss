@@ -1,20 +1,22 @@
 .header {
-    padding: 1rem  0 3rem;
+  padding: 1rem 0 3rem;
+  a {
+    text-decoration: none;
+  }
 }
 
 .title {
-    color: #000000;
-    font-size: 3rem;
-    
+  color: #000000;
+  font-size: 3rem;
 }
 
 .link {
-    color: yellowgreen;
+  color: yellowgreen;
 }
-.link:hover{
-    color: #999999;
+.link:hover {
+  color: #999999;
 }
 
-.link::after{
-    background: #444444;
+.link::after {
+  background: #444444;
 }
